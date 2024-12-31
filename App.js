@@ -4,6 +4,8 @@ import LifecycleComponent from "./src/components/ClassComponent";
 import FunctionComponent from "./src/components/FunctionComponent";
 import BasicComponent from "./src/components/BasicComponent";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import Hooks from "./src/Hooks/Hooks";
+import UseLayoutEffect from "./src/Hooks/UseLayoutEffect";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
           {/* <FunctionComponent /> */}
           {/* <BasicComponent /> */}
           {/* <View style={styles.flex2}/> */}
+          <Hooks/>
+          
       </View>
     </SafeAreaProvider>
   );
